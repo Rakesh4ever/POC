@@ -1,0 +1,11 @@
+server:
+   port: 8080
+
+spring:
+   data:
+      cassandra:
+         keyspace-name: maersk_poc
+         
+         contact-points: 127.0.0.1
+         port: 9042
+         
