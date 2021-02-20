@@ -2,7 +2,7 @@
 Micro services with Java 11, Spring boot 2.x and  webflux + WebClient + Spring data Cassandra
 
 
-# Develpment Responce snipeshot you can find below 
+# Development Responce snipeshot you can find below 
 
 ##Postman response after saving entity record to Cassandra DB 
 
