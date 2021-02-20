@@ -11,4 +11,7 @@ Micro services with Java 11, Spring boot 2.x and  webflux + WebClient + Spring d
 
 ## And Cassandra DB records after successfull data/record insertion
 
+![cqlResponse](https://user-images.githubusercontent.com/48691043/108586873-0230ff00-7377-11eb-9698-7ff01799d70a.png)
+
+
 
