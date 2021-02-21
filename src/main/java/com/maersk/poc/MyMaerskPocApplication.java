@@ -6,7 +6,11 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import io.swagger.annotations.SwaggerDefinition;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
 @SpringBootApplication
+@EnableSwagger2
 public class MyMaerskPocApplication {
 	
 
@@ -14,11 +18,6 @@ public class MyMaerskPocApplication {
 		SpringApplication.run(MyMaerskPocApplication.class, args);
 	}
 
-	
-	@Bean
-	public WebClient.Builder getWebClient(){
-		return WebClient.builder();
-	}
 	
 	@Bean
 	public RestTemplate getRestTemplate() {
